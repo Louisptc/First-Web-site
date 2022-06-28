@@ -1,0 +1,98 @@
+body {
+    background-color: LightBlue;
+}
+
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+    background-color: steelBlue;
+    font-size: 2em;
+    height: 2em;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.sidenav {
+    height: 71%;
+    width: 200px;
+    position: fixed;
+    z-index: 0;
+    top: 150px;
+    bottom: 0;
+    right: 0;
+    background-color: LightSeaGreen;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-right: 50px;
+    height: 666px;
+    border-radius: 15px;
+}
+
+.sidenav a {
+    padding: 125px 8px 2px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+.center {
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    z-index: 10;
+    bottom: 1;
+    right: 1;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    left: -50x;
+    height: 686px;
+    background: white;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 1502px;
+    position: fixed;
+    bottom: 1;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+ul {
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 100px;
+    right: 800px;
+}
+
+h1 {
+    font-size: 4em;
+    color: black;
+    text-align: center;
+}
+
+.image {
+    margin-right: 100px;
+    margin-top: 755px;
+    height: 50px;
+    width: 60px;
+}
+
+h4 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
